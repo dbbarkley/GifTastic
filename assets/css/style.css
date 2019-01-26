@@ -1,0 +1,30 @@
+body {
+    background: url("../images/bacground.png");
+}
+@font-face {
+    font-family: newFont;
+    src: url("../images/commando.ttf");
+}
+#logo {
+    font-family: newFont;
+    font-size: 175px;
+    margin-top: 5%;
+    -webkit-text-stroke: 3px rgb(190, 187, 187);
+    background: -webkit-linear-gradient(#eb94d0, #2079b0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 17%;
+}
+.input {
+    width: 40%;
+    margin: auto;
+}
+.btn {
+    margin-left: 44%;
+    background: -webkit-linear-gradient(#eb94d0, #2079b0) !important;
+    -webkit-background-clip: text;
+}
+button {
+    background: -webkit-linear-gradient(#eb94d0, #2079b0) !important;
+    -webkit-background-clip: text;
+}
