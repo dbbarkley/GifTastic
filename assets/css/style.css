@@ -34,3 +34,20 @@ body {
     margin: auto;
     padding: 1%;
 }
+.giphy-holder {
+    position: relative;
+    overflow: hidden;
+    display: inline-table;
+    background-color: white;
+    margin-left: 10%;
+    width: 80%;
+    height: 500px;
+}
+.giphy-div {
+    padding: 2%;
+    float: left;
+
+}
+#ratings {
+    padding: 1%;
+}
