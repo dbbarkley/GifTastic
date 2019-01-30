@@ -46,8 +46,10 @@ body {
 .giphy-div {
     padding: 2%;
     float: left;
-
 }
 #ratings {
     padding: 1%;
+}
+.hidden {
+    display: none;
 }
