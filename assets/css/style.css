@@ -1,6 +1,7 @@
 body {
     background: url("../images/ep_naturalblack.png");
 }
+/* Add font */
 @font-face {
     font-family: newFont;
     src: url("../images/commando.ttf");
@@ -52,4 +53,109 @@ body {
 }
 .hidden {
     display: none;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+/* Moble responsive */
+@media screen and (max-width: 1100px) {
+    #logo {
+        font-size: 150px;
+    }
+}
+@media screen and (max-width: 960px) {
+    #logo {
+        font-size: 125px;
+        margin-left: 16%;
+    }
+    .main-button {
+        margin-left: 43%;
+    }
+}
+@media screen and (max-width: 768px) {
+    #logo {
+        font-size: 105px;
+    }
+    .main-button {
+        margin-left: 40.5%;
+    }
+    #new-giphy {
+        width: 260px;
+    }
+}
+@media screen and (max-width: 720px) {
+    #logo {
+        font-size: 100px;
+        margin-left: 15%;
+    }
+    .main-button {
+        margin-left: 40%;
+    }
+    #new-giphy {
+        width: 260px;
+        margin-left: 2%;
+    }
+}
+@media screen and (max-width: 580px) {
+    #logo {
+        font-size: 90px;
+        margin-left: 11%;
+    }
+    .input {
+        width: 50%;
+    }
+    .main-button {
+        margin-left: 37.5%;
+    }
+    .giphy-div {
+        width: 300px;
+        margin-left: 17%;
+    }
+}
+@media screen and (max-width: 520px) {
+    #logo {
+        font-size: 80px;
+    }
+    .main-button {
+        margin-left: 36%;
+    }
+    .giphy-div {
+        margin-left: 14%;
+    }
+}
+@media screen and (max-width: 460px) {
+    #logo {
+        font-size: 70px;
+    }
+    .input {
+        width: 60%;
+    }
+    .main-button {
+        margin-left: 34%;
+    }
+    .giphy-div {
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width: 430px) {
+    #logo {
+        margin-left: 9%;
+    }
+    .main-button {
+        margin-left: 33%;
+    }
+    .giphy-div {
+        margin-left: 8.5%;
+    }
+}
+@media screen and (max-width: 400px) {
+    #logo {
+        margin-left: 6%;
+    }
+    .main-button {
+        margin-left: 31.5%;
+    }
+    .giphy-div {
+        margin-left: 5.5%;
+    }
 }

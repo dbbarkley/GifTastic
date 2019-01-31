@@ -23,16 +23,17 @@ function getGiphy() {
         for(var i = 0; i < 10; i++) {
             // Var's of response data
             var rating = response.data[i].rating;
-            var url = response.data[i].images.original.url;
+            var url = response.data[i].images.original_still.url;
             // Var that holds dynamic HTML
             var output = "<div class='giphy-div'><h4 id='ratings'>Rating: " + rating + "</h4>" +
                         "<img id='new-giphy' width='300px' height='250px' src='" + url + "'/></div>";
 
             // Add giphy's to page
             $(".giphy-holder").append(output);
-
         };
+
     });
+
 };
 
 
